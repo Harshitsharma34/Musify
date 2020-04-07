@@ -1,0 +1,78 @@
+body{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url('../Images/abcd2.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;  
+    height: 100vh;
+}
+main{
+    height: 530px;
+    width : 90%;
+    margin-top:90px;
+    margin-bottom: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid black; 
+    display:flex;
+    justify-content: space-around;
+    align-items:center;
+    flex-wrap: wrap;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+div{
+    width :30%;
+    height: 160px;
+    box-shadow: 2px 5px 5px goldenrod;
+    border-radius: 10px;
+    cursor: pointer; 
+}
+.a{
+    background-image: url('/Images/shayad.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.b{
+    background-image: url('/Images/afreen.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.c{
+    background-image: url('/Images/hfod.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 110%;
+}
+.d{
+    background-image: url('/Images/hawayein.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.e{
+    background-image: url('/Images/2002.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.f{
+    background-image: url('/Images/songforzula.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.g{
+    background-image: url('/Images/sunflower.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.h{
+    background-image: url('/Images/TLT.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.i{
+    background-image: url('/Images/itsyou.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}

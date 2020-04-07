@@ -1,0 +1,37 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url('../Images/abcd4.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;  
+    height: 100vh;
+}
+.header{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: blanchedalmond;
+    text-align: center;
+    margin-right: 250px;
+    margin-top: 30px;
+    font-size: 50px;
+}
+p{
+    color: rgb(214, 203, 156);
+    position: absolute;
+    margin-left: 10px;
+    margin-top: 20px;
+}
+.colorchange{
+    animation: colorchangeharshit 5s infinite;
+}
+@keyframes colorchangeharshit{
+    0%{color:rgb(178, 221, 98);}
+    25%{color : rgb(193, 196, 14);}
+    50%{color:rgb(9, 129, 63);}
+    75%{color:rgb(95, 230, 129);}
+    100%{color : seagreen;
+} 
+}

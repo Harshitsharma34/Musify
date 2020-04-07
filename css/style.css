@@ -1,0 +1,163 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+header{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)),url('../Images/abcd.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;  
+    height: 100vh;
+}
+.myclass{
+    max-width: 1180px;
+    margin:0 auto;
+
+}
+.logo{
+    height : 100px;
+    width :auto;
+    float: left;
+    margin-top: 20px;
+    opacity: 0.9;
+}
+.min-nav{
+    float: right;
+    margin-top: 40px;
+    }
+
+.min-nav li{
+    display: inline-block;
+    list-style: none;
+    margin-left: 20px;
+}
+body{
+    font-size: 20px;
+    overflow-x: hidden;
+    color:#fff;
+}
+
+.min-nav li a{
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 90%;
+    font-weight: 100;
+}
+.min-nav li a:hover{
+    border-bottom: 2px solid #bf55ec;
+}
+.clearfix:after{
+    content : ".";
+    visibility: hidden;
+    display: block;
+    height: 0px;
+    clear: both ;
+}
+.main-content-header{
+    width: 1180px;
+    position: absolute;
+    top : 50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+}
+h1{
+    font-size: 240%;
+    word-spacing: 5px;
+    text-transform:uppercase ;
+    margin-bottom: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+.btn {
+    display: inline-block;
+    padding:10px 30px;
+    font-weight: lighter;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-radius: 200px;
+    transition: background-color 0.2s,border 0.2s, color 0.2s;
+}
+.btn-full {
+    background-color: transparent;
+    color : whitesmoke;
+    margin-right: 15px;
+    border:1px solid ;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.btn-nav{
+    background-color: transparent;
+    color:rgb(18, 150, 77);
+    border: 1px solid;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.btn-full:hover{
+    background-color : seagreen ;
+}
+.btn-nav:hover{
+    background-color: #fff;
+}
+.colorchange{
+    animation: colorchangeharshit 5s infinite;
+
+}
+.mobileicon{
+    display: none;
+}
+ul li{
+    line-height: 5px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+@keyframes colorchangeharshit{
+    0%{color:rgb(178, 221, 98);}
+    25%{color : rgb(193, 196, 14);}
+    50%{color:rgb(9, 129, 63);}
+    75%{color:rgb(95, 230, 129);}
+    100%{color : seagreen;
+} 
+}
+
+@media only screen and (max-width : 1180px){
+    .main-content-header
+    {
+        width: 100%;
+        padding : 6.9%; 
+    }
+    .logo{
+        padding: 1%;
+        margin-left: 25px;
+    }
+}
+@media only screen and (max-width : 998px){
+    h1{
+        font-size: 180%;
+    }
+    .min-nav{
+        display: none;}
+    .mobileicon {
+        display: inline-block;
+        color:#fff;
+        float: right;
+        margin-top: 30px;
+        margin-right:20px
+    }
+    .min-nav li{
+        display: block;
+        margin-top: 20px;
+
+    }
+    .min-nav{
+        float: left;
+    }
+}
+@media only screen and (max-width : 488px)
+{
+    h1{
+        font-size: 160%;
+    }
+}

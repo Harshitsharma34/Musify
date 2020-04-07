@@ -1,0 +1,63 @@
+body{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url('../Images/abcd3.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;  
+    height: 100vh;
+}
+
+.login-page{
+    width:360px;
+    padding:10% 0 0;
+    margin : auto;
+
+}
+.form{
+    position: relative;
+    z-index: 1;
+    background: rgba(24, 167, 224, 0.473);
+    max-width: 360px;
+    margin: 0 auto 100px;
+    padding: 45px;
+    border-radius: 60px;
+
+}
+.form input{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    outline:1;
+    background: #f2f2f2;
+    width:100%;
+    border :0;
+    margin :0 0 15px;
+    padding: 15px;
+    box-sizing: border-box;
+    font-size: 14px;
+    border-radius: 50px;
+}
+ button{
+     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+     text-transform: uppercase;
+      outline: 0;
+     background: #4CAF40;
+     width :100%;
+     padding: 15px;
+     color: #ffffff;
+     cursor: pointer;
+     border-radius: 50px;
+
+ }
+ .form button :hover,.form button:active  {
+     background: rgb(99, 104, 179);
+     cursor : pointer;
+ }
+ .form .message{
+     margin:15px 0 0;
+     margin-left: 45px;
+     color: aliceblue;
+
+ }
+.form .message a{
+    color : sandybrown;
+    text-decoration: none;
+
+} 

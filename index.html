@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<title>Musify </title>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link rel="stylesheet" type="text/css" href="css/style.css">
+<link rel="stylesheet" href="animate.css-master/animate.min.css">
+<link rel="stylesheet" href="Font-Awesome-master/js-packages/@fortawesome/fontawesome-free/css/fontawesome.min.css">
+<link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+
+<head>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="myclass clearfix">
+                <img src="Images/icon2.png" class="logo animated slideInDown ">
+                <ul id="check" class="min-nav animated slideInDown">
+                    <li><a href="login.html">LOGIN</a></li>
+                    <li><a href="register.html">SIGN UP</a></li>
+                    <li><a href="help.html">HELP</a></li>
+                </ul>
+                <a href="#" class="mobileicon" id="check" onclick="slideshow()"><i class="fa fa-bars"></i></a>
+            </div>
+        </nav>
+        <div class="main-content-header">
+            <h1 class="heading animated fadeIn">
+                Welcome to <span class="colorchange"> Musify</span>.<br>
+                Time to Groove on every Tune.
+
+            </h1>
+            <a href="#" class="btn btn-full"> Get Musify for free </a>
+            <br>
+            <br>
+            <a href="musicpage.html" class="btn btn-nav">Looking for Music ?</a>
+        </div>
+    </header>
+
+</body>
+<script type="text/javascript">
+    function slideshow() {
+        var x = document.getElementById('check');
+        if (x.style.display === "none") {
+            x.style.display = "block";
+        }
+        else {
+            x.style.display = "none";
+        }
+    }
+
+</script>
+
+</html>

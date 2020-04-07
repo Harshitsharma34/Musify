@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <link rel="stylesheet" href="animate.css-master/animate.min.css">
+    <head>
+        <title>
+            Register  
+          </title>
+          <link rel="stylesheet" type="text/css" href="css/register.css">
+
+    </head>
+    <body>
+        <div class="login-page animated slideInDown">
+        <div class="form ">
+            <form class="login-form">
+                <input type="text" placeholder="Username">
+                <input type="text" placeholder="Password">
+                <input type="email" placeholder="Email">
+                <input type="text" placeholder="Mobile No.">
+                <button id="btn1"> Register</button>
+                <p class="message"> Already Registered <a href="login.html"> Login</a></p>
+                
+            </form>
+    </div>
+    </div>
+    <script src="jquery.js"></script>
+    <script>
+            $(".message a").click(funtion(){
+            $('form').animate({
+                height :"toggle" ,
+                opacity : "toggle"},
+                "slow");
+            });
+        
+    </script>
+
+    </body>
+   
+
+</html>
